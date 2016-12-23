@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pointe-Santo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsiveslides.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+</head>    
+
+    
+<script>
+    $(function() {
+        $("#slider1").responsiveSlides({
+            auto: true,
+            speed: 500,
+            timeout: 6000,
+            pager: false,
+            nav: true,
+            random: true,
+            pause: true,
+            prevText: "Last",
+            nextText: "Next",
+            navContainer: "#switch1"
+        });
+        
+        $("#slider2").responsiveSlides({
+            auto: true,
+            speed: 500,
+            timeout: 6000,
+            pager: false,
+            nav: true,
+            random: true,
+            pause: true,
+            prevText: "Last",
+            nextText: "Next",
+            navContainer: "#switch2"
+        });
+        
+        $("#slider3").responsiveSlides({
+            auto: true,
+            speed: 500,
+            timeout: 6000,
+            pager: false,
+            nav: true,
+            random: true,
+            pause: true,
+            prevText: "Last",
+            nextText: "Next",
+            navContainer: "#switch3"
+        });
+    });
+</script>
+    
+<section id="head" class="noSelect">
+    <ul id="navBarLeft">
+        <li class="link"><span class="navBar">features</span></li>
+        <li class="link"><span class="navBar">pictures</span></li>
+    </ul>
+    <ul id="navBarRight">
+        <li class="link"><span class="navBar">sanibel</span></li>
+        <li class="link"><span class="navBar">contact</span></li>
+    </ul>
+    <img id="logo" src="images/unitE45.png" draggable="false">
+    <div id="headInfo">
+        <p id="paradiseHead">Welcome to paradise</p>
+        <p id="paradiseSubHead">The most luxurious gulf-front penthouse in Pointe-Santo.</p>
+        <div id="inquire1" class="inquiryButton">Make an inquiry</div>
+    </div>
+    <p id="bottomHead">Sanibel Island, Florida</p>
+</section>
+    
+<div id="body">    
+    
+    <section id="features">
+        <div id="topSeparator" class="separator"></div>
+        <p id="featuresInfo"><span id="featuresHead">Features</span><br>The condo has been remodeled to be one of the best equipped and most luxurious beachfront condos in Pointe Santo.</p>
+            <ul id="leftList">
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+            </ul>
+            <ul id="rightList">
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+                <li class="featureList">Text, text, text, text, text, text, text, text, text, text</li>
+            </ul>
+    </section>
+    
+    <section id="pictures">
+        <div id="insideCondo">
+            <p id="insideInfo" class="information"><span class="informationHead">Inside the Condo</span><br>Located at the top floor of the E building at Pointe Santo, this non-smoking unit can comfortably sleep up to six adults. Featuring en suite master and guest bedrooms (both equipped with HD TV and DVD), free high-speed Wi-Fi, and a private south-facing sundeck with an uninterrupted view of the Gulf of Mexico, E-45 offers only the best in entertainment, leisure, and luxury.</p>
+        </div>
+        <div id="slide1" class="slideshow">
+            
+            <ul id="slider1" class="rslides">
+                <li><img src="images/first1.jpg" alt=""></li>
+                <li><img src="images/first2.jpg" alt=""></li>
+                <li><img src="images/first3.jpg" alt=""></li>
+                <li><img src="images/first4.jpg" alt=""></li>
+                <li><img src="images/first5.jpg" alt=""></li>
+                <li><img src="images/first6.jpg" alt=""></li>
+                <li><img src="images/first7.jpg" alt=""></li>
+                <li><img src="images/first8.jpg" alt=""></li>
+                <li><img src="images/first9.jpg" alt=""></li>
+                <li><img src="images/first10.jpg" alt=""></li>
+                <li><img src="images/first11.jpg" alt=""></li>
+                <li><img src="images/first12.jpg" alt=""></li>
+                <li><img src="images/first13.jpg" alt=""></li>
+                <li><img src="images/first14.jpg" alt=""></li>
+                <li><img src="images/first15.jpg" alt=""></li>
+                <li><img src="images/first16.jpg" alt=""></li>
+                <li><img src="images/first17.jpg" alt=""></li>
+                <li><img src="images/first18.jpg" alt=""></li>
+                <li><img src="images/first19.jpg" alt=""></li>
+            </ul>
+            
+            <div id="switch1" class="panel">
+                <div class="leftArrow"></div>
+                <div class="rightArrow"></div>
+                <div id="dot1Slide1" class="dot"></div>
+                <div id="dot2Slide1" class="dot"></div>
+                <div id="dot3Slide1" class="dot"></div>
+                <div id="dot4Slide1" class="dot"></div>
+            </div>
+        </div>
+        <div id="yourView">
+            <p id="viewInfo" class="information"><span class="informationHead">Your View</span><br>With a screened balcony and a private sundeck, your view will be blessed with gorgeous sunets and a serene ocean. Unit E-45 features one of the best views in Sanibel, and is undoubtedly a glimpse into paradise.</p>
+        </div>
+        <div id="slide2" class="slideshow">
+            
+            <ul id="slider2" class="rslides">
+                <li><img src="images/second1.jpg" alt=""></li>
+                <li><img src="images/second2.jpg" alt=""></li>
+                <li><img src="images/second3.jpg" alt=""></li>
+            </ul>
+            
+            <div id="switch2" class="panel">
+                <div class="leftArrow"></div>
+                <div class="rightArrow"></div>
+                <div id="dot1Slide2" class="dot"></div>
+                <div id="dot2Slide2" class="dot"></div>
+                <div id="dot3Slide2" class="dot"></div>
+                <div id="dot4Slide2" class="dot"></div>
+            </div>
+        </div>
+        <div id="insidePointe">
+            <p id="pointeInfo" class="information"><span class="informationHead">Inside Pointe Santo</span><br>Set by the Gulf of Mexico at the southernmost point point of Sanibel Island, Pointe Santo de Sanibel offers dramatic Spanish Architecture set in more than 10 acres of landscaped tropical gardens. With a heated swimming pool, hot tub, activities clubhouse, and one of the best shelling beaches in the world, Pointe Santo offers exceptional amenities and activities.</p>
+        </div>
+        <div id="slide3" class="slideshow">
+            
+            <ul id="slider3" class="rslides">
+                <li><img src="images/third1.jpg" alt=""></li>
+                <li><img src="images/third2.jpg" alt=""></li>
+                <li><img src="images/third3.jpg" alt=""></li>
+            </ul>
+            
+            <div id="switch3" class="panel">
+                <div class="leftArrow"></div>
+                <div class="rightArrow"></div>
+                <div id="dot1Slide3" class="dot"></div>
+                <div id="dot2Slide3" class="dot"></div>
+                <div id="dot3Slide3" class="dot"></div>
+                <div id="dot4Slide3" class="dot"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sanibel">
+        <div id="bottomSeparator" class="separator"></div>
+        <p id="sanibelTitle"><span id="sanibelSub">Sanibel Island</span><br>Welcome to one of the best shelling beaches in the nation<br>and the optimal subtropical retreat</p>
+        <p id="sanibelInformative">A national wildlife refuge takes up a major portion of Sanibel Island. Home to roseate spoonbills, egrets, herons, alligators, and otters, the J.N. “Ding” National Wildlife Refuge offers rental guests open-air tram rides with a naturalist on board. Visitors can also drive, bike, walk, or canoe the winding water and land routes. World-renown as a spectacular shelling destination, with more than 275 shell types washing ashore, this island is considered the best site in the USA for collecting shells, and one of the best in the world.<br><br>At the other end of the pleasure spectrum, Sanibel Island also has plenty of chic shops, galleries, restaurants, and resorts. All are artfully sheltered from the roadway by lush canopies of majestic palms, Australian pines, and bright floral blooms.</p>
+        <div id="waiting">
+            <div id="waitingInfo" class="noSelect">
+                <p id="waitingFor">So what are you waiting for?</p>
+                <div id="inquire2" class="inquiryButton">Make an inquiry</div>
+            </div>
+            <div id="footer">
+                <div id="email" class="footerItem">
+                    <img class="footerPic" src="images/email.png" draggable="false">
+                    sales@sanibel-vacations.net
+                </div>
+                <div id="phone" class="footerItem">
+                    <img class="footerPic" src="images/phone.png" draggable="false">
+                    239 - 851 - 8210
+                </div>
+                <div id="address" class="footerItem">
+                    <img class="footerPic" src="images/address.png" draggable="false">
+                    2445 W Gulf Dr. Sanibel, FL 33957
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</div>
+    
+</html>
